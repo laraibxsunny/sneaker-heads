@@ -27,3 +27,59 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+.background {
+    background-image: url('https://images4.alphacoders.com/856/856244.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black;
+    z-index: -1; 
+}
+h1 {
+    text-align: center;
+    background-color: black;
+}
+#jordans-1 {
+    border-radius: 1cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#jordans-2 {
+    border-radius: 1cm;
+    image-orientation: flip;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+#jordans-1-desc {
+    border-radius: 500cm;
+    background-color: rgb(60, 165, 235);
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-size: 25px;
+    padding: 35px 1%;
+}
+#jordans-2-desc {
+    border-radius: 500cm;
+    background-color: rgb(142,22,27);
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-size: 25px;
+    padding: 35px 1%;
+}
+
